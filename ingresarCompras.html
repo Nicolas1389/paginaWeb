@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <h6 >
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Carrito de compras</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="./script.js"></script>
+    </h6>
+</head>
+
+    <body class="bodyCompras">
+
+    <div class="container"></div>
+    <nav class="carrito"  >
+        <h1 id="cantidadCarrito" class="cantidadCarrito" >  </h1>
+        <img onclick="abrirCarrito()" style="cursor: pointer;" width="5%" height="5%" src="img/anadir-al-carrito.png" alt="">
+        
+    </nav>
+    <nav>
+        <button class="botonPago">
+        
+            <link rel="stylesheet" href="style.css">
+            <a class="botonPago" href="paginaDePago.html">PAGAR</a>
+        </button> 
+    </nav>
+    <h1>Eventos disponibles</h1>
+    
+    <div class="grid">
+        <div class="items">
+            <img src="img/KISS.png">
+            <div class="info">
+                <h3 id="nombreKiss" >KISS en concierto </h3>
+                <p id="fechaKiss" >Sábado 15 de abril de 2023</p>
+                <div class="precio">
+                    <p>Valor</p>
+                    <p id="precioKiss" >COP $ 450.000.oo</p>
+                    <p>Pagando con tarjeta de crédito</p>
+                    <p id="tarjetaKiss" >COP $ 378.000.oo</p>
+                </div>
+                <button onclick="añadirCarritoKiss()" class="jello" >Agregar al carrito</button>
+            </div>
+        </div>
+        
+        <div class="items">
+            <img src="img/RBD.jpg">
+            <div class="info">
+                <h3 id="nombreRBD" >SOY REBELDE TOUR</h3>
+                <p id="fechaRBD" >Sábado 04 de noviembre de 2023</p>
+                <div class="precio">
+                    <p>Valor</p>
+                    <p id="precioRBD" >COP $ 870.000.oo</p>
+                    <p>Pagando con tarjeta de crédito</p>
+                    <p id="tarjetaRBD" >COP $ 650.000.oo</p>
+                </div>
+                <button onclick="añadirCarritoRBD()" class="jello">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="items">
+            <img src="img/Karol G.jpg">
+            <div class="info">
+                <h3 id="nombreKarol" >Karol G "Mañana será bonito tour"</h3>
+                <p id="fechaKarol" >Sábado 05 de abril de 2024</p>
+                <div class="precio">
+                    <p>Valor</p>
+                    <p id="precioKarol" >COP $ 1.580.000.oo</p>
+                    <p>Pagando con tarjeta de crédito</p>
+                    <p id="tarjetaKarol" >COP $ 1.240.000.oo</p>
+                </div>
+                <button onclick="añadirCarritoKarol()" class="jello">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="items">
+            <img src="img/Comediantes_1.jpeg">
+            <div class="info">
+                <h3 id="nombreClandestinos" >Clandestinos, Stand-up Comedy</h3>
+                <p id="fechaClandestinos" >Viernes 10 de noviembre de 2023</p>
+                <div class="precio">
+                    <p>Valor</p>
+                    <p id="precioClandestinos" >COP $ 75.000.oo</p>
+                    <p>Pagando con tarjeta de crédito</p>
+                    <p id="tarjetaClandestinos" >COP $ 50.000.oo</p>
+                </div>
+                <button onclick="añadirCarritoClandestinos()" class="jello">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="items">
+            <img src="img/Comediantes_2.jpg">
+            <div class="info">
+                <h3 id="nombreRicardo" > Ricardo, Bobby y Tato.</h3>
+                <p id="fechaRicardo" >Viernes 01 de diciembre de 2023</p>
+                <div class="precio">
+                    <p>Valor</p>
+                    <p id="precioRicardo" >COP $ 120.000.oo</p>
+                    <p>Pagando con tarjeta de crédito</p>
+                    <p id="tarjetaRicardo" >COP $ 90.000.oo</p>
+                </div>
+                <button onclick="añadirCarritoRicardo()" class="jello">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="items">
+            <img src="img/sin_verguenza_pamela_ospina.jpg">
+            <div class="info">
+                <h3 id="nombrePamela" >Pamela Ospina, Sin verguenza</h3>
+                <p id="fechaPamela" >Viernes 15 de diciembre de 2023</p>
+                <div class="precio">
+                    <p>Valor</p>
+                    <p id="precioPamela" >COP $ 120.000.oo</p>
+                    <p>Pagando con tarjeta de crédito</p>
+                    <p id="tarjetaPamela" >COP $ 90.000.oo</p>
+                </div>
+                <button onclick="añadirCarritoPamela()" class="jello">Agregar al carrito</button>
+            </div>
+        </div>
+    </body>
+
+</html>
